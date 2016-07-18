@@ -1534,7 +1534,7 @@ Sizzle.error = function( msg ) {
  * @param {ArrayLike} results
  */
 Sizzle.uniqueSort = function( results ) {
-	var elem,
+	var elem,j
 		duplicates = [],
 		j = 0,
 		i = 0;
