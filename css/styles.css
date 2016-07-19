@@ -4,11 +4,11 @@ html {
 }
 
 .layout-body {
-  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   background-color: white;
 }
 
@@ -33,4 +33,18 @@ button:hover {
   border-left:10px solid #E5B6D5;
   border-top:10px solid #CC7FB5;
   border-bottom:10px solid #CC7FB5;
+}
+
+@media (max-width: 540px) {
+  .layout-body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  button {
+    /*height: 70px;
+    font-size: 1em;*/
+    margin: auto;
+
+  }
 }

@@ -1,5 +1,3 @@
-// var randomColor = generateRandomColor();
-
 function generateRandomColor() {
   var letters = '0123456789ABCDEF'.split('');
   var color = '#';
