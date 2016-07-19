@@ -1,15 +1,16 @@
 html {
   font-family: font-family: 'Open Sans', sans-serif;
-  margin: auto;
 }
 
 .layout-body {
   height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   background-color: white;
+  flex-wrap: wrap; 
 }
 
 button {
@@ -18,10 +19,10 @@ button {
   font-size: 2em;
   color: white;
   background-color: #E5B6D5;
-  border-top:10px solid #B2479A;
-  border-bottom:10px solid #B2479A;
-  border-right:10px solid #CC7FB5;
-  border-left:10px solid #CC7FB5;
+  border-top: 10px solid #B2479A;
+  border-bottom: 10px solid #B2479A;
+  border-right: 10px solid #CC7FB5;
+  border-left: 10px solid #CC7FB5;
   border-right-style: outset;
   border-left-style: outset;
   margin: 30px;
@@ -35,16 +36,15 @@ button:hover {
   border-bottom:10px solid #CC7FB5;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 524px) {
   .layout-body {
-    flex-direction: column;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-center;
+  }
 
-  button {
-    /*height: 70px;
-    font-size: 1em;*/
-    margin: auto;
-
+  button.btn-reset {
+    margin: 20px;
+    height: 70px;
   }
 }
