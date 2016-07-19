@@ -1,2 +1,2 @@
 # color-changer-solo
-Front-end engineering solor project. 
+Front-end engineering solo project.
