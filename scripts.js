@@ -13,6 +13,10 @@ function getRandomColor() {
 
 $(document).ready(function() {
 
+  $('.btn-reset').on('click', function() {
+    $('.layout-body').css('background-color', 'white');
+  });
+
   $('.btn-random').on('click', function() {
     var randomColor = getRandomColor();
     $('.layout-body').css('background-color', randomColor);
