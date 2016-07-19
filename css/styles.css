@@ -1,44 +1,44 @@
 html {
+  height: 100%;
   font-family: font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
-  height: 100%;
   width: 100%;
 }
 
 .layout-body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
   align-items: center;
   background-color: white;
+  display: flex;
   flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 button {
-  height: 100px;
-  width: 200px;
-  font-size: 2em;
   color: white;
   background-color: #E5B6D5;
   border-top: 10px solid #B2479A;
   border-bottom: 10px solid #B2479A;
   border-right: 10px solid #CC7FB5;
-  border-left: 10px solid #CC7FB5;
   border-right-style: outset;
+  border-left: 10px solid #CC7FB5;
   border-left-style: outset;
+  font-size: 2em;
+  height: 100px;
   margin: 30px;
+  width: 200px;
 }
 
 button:hover {
   background-color: #B2479A;
-  border-right:10px solid #E5B6D5;
-  border-left:10px solid #E5B6D5;
   border-top:10px solid #CC7FB5;
   border-bottom:10px solid #CC7FB5;
+  border-right:10px solid #E5B6D5;
+  border-left:10px solid #E5B6D5;
 }
 
 @media (max-width: 524px) {
@@ -46,13 +46,15 @@ button:hover {
     display: flex;
     flex-direction: column;
   }
+
   button {
-    width: 60%;
     margin: 40px;
-    /*margin: auto;*/
+    width: 60%;
   }
+
   .btn-reset {
     height: 70px;
     margin-top: 0;
   }
+  
 }

@@ -11,12 +11,12 @@ function generateRandomColor() {
 
 function resetColor() {
   $('.layout-body').css('background-color', 'white');
-}
+};
 
 function setRandomColor() {
   var randomColor = generateRandomColor();
   $('.layout-body').css('background-color', randomColor);
-}
+};
 
 $(document).ready(function() {
 
